@@ -2,6 +2,7 @@ A very simple AMQP client demo, that works with RabbitMQ (2.7.0) or Apache QPid 
 Tested with Node.js Version: 0.6.6
 
 You need to install the 'node-ampq' component before you can run this.
+
     npm install amqp
 
 ## AMQP broker
