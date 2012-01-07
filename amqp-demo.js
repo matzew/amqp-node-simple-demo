@@ -56,4 +56,9 @@ function setup() {
             console.log("BIND OK....");
         });
     });
+
+    // publish messages:
+    setInterval(function() {
+	    exchange.publish("message.text", "NodeJS says HOWDY! "+Date.now());
+	}, 50);
 }
