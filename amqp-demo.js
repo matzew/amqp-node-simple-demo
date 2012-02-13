@@ -59,6 +59,7 @@ function setup() {
 
     // publish messages:
     setInterval(function() {
+        // get it out:
 	    exchange.publish("message.text", "NodeJS says HOWDY! "+Date.now());
 	}, 50);
 }
